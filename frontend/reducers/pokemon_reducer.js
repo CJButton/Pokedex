@@ -1,6 +1,5 @@
 
 
-
 import {RECEIVE_ALL_POKEMON} from '../actions/pokemon_actions';
 
 function PokemonReducer(oldState = {}, action) {
