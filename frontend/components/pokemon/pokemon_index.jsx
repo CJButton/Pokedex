@@ -6,10 +6,10 @@ const PokemonIndex = ({pokemon, children}) => {
   // it gets immediate children of this route
   return (
     <section className="pokedex">
-      {children}
-      <ul>
+      <ul className="pokemon-list">
         {pokemon.map(poke => <PokemonIndexItem key={poke.id} poke={poke} />)}
       </ul>
+      {children}
     </section>
   );
 };

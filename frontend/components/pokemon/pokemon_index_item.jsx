@@ -3,7 +3,6 @@ import {withRouter} from 'react-router';
 
 const PokemonIndexItem = ({ poke, router }) => {
   const handleClick = url => e => router.push(url);
-
   return (
     <li
       className="pokemon-index-item"
